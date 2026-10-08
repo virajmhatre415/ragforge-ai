@@ -1,6 +1,43 @@
+# Python virtual environments
 .venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[codz]
+*$py.class
+
+# Environment variables and secrets
 .env
+.envrc
+.streamlit/secrets.toml
+
+# Build and package files
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local databases and generated application data
 chroma_db/
 data/uploads/
+*.sqlite3
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+tempCodeRunnerFile.py
